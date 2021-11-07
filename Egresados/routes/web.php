@@ -28,3 +28,7 @@ Route::resource('/login-administrador', LoginAdminController::class);
 Route::resource('/cambiar-contrasena', CambiarContrasenaController::class);
 Route::resource('/menu-egresado', MenuEgresadoController::class);
 Route::resource('/menu-administrador', MenuAdministradorController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
