@@ -19,17 +19,17 @@
 <!-- Oscar --->
 <div class="container-fluid content">
         <div class="row justify-content-center">
-            <div class="col-xl-12">
+            <div class="col-xl-*">
             <nav class="text-center my-5">
                 <h4>Universidad Nacional Tecnológica de Lima Sur</h4>
 
                 <form action="">
-                    <div class="form-row">
-                        <div class="col-auto my-1">
-                            <a href="{{route('login-egresado.index')}}" class="btn btn-success">Egresados</a>
+                    <div class="row">
+                        <div class="col-sm-6 my-sm-3">
+                            <a href="{{route('login-egresado.index')}}" class="btn btn-block btn-success">Egresados</a>
                         </div>
-                        <div class="col-auto my-1">
-                            <a href="{{route('login-administrador.index')}}" class="btn btn-success">Administrador</a>
+                        <div class="col-sm-6 my-sm-3">
+                            <a href="{{route('login-administrador.index')}}" class="btn btn-block btn-success">Administrador</a>
                         </div>
                     </div>
                 </form>
@@ -60,7 +60,7 @@
                 <!-- Post 1 -->
                 <div class="col-md-4 col-12 justify-content-center mb-5">
                     <div class="card m-auto" style="width: 18rem;">
-                        <img class="card-img-top" src="{{asset('images/3.png')}}" alt="Post Python">
+                        <img class="card-img-top" src="{{asset('images/linkedin.jpg')}}" alt="Post Linkedin">
                         <div class="card-body">
                             <small class="card-txt-category">Categoría: Programación</small>
                             <h5 class="card-title my-2">Aprende Python en un dos tres</h5>
@@ -69,7 +69,7 @@
                                 Sed voluptatum ab cumque quisquam quod nesciunt fugiat,
                                 eius corrupti nulla veniam, molestias nemo repudiandae?
                             </div>
-                            <a href="#" class="post-link"><b>Leer más</b></a>
+                            <a href="https://pe.linkedin.com/" class="post-link"><b>Ir a</b></a>
                             <hr>
                             <div class="row">
                                 <div class="col-6 text-left">
@@ -85,7 +85,7 @@
                 <!-- Post 2 -->
                 <div class="col-md-4 col-12 justify-content-center mb-5">
                     <div class="card m-auto" style="width: 18rem;">
-                        <img class="card-img-top" src="{{asset('images/3.png')}}" alt="Post Python">
+                        <img class="card-img-top" src="{{asset('images/cti_vitae.jpg')}}" alt="Post cti_vitae">
                         <div class="card-body">
                             <small class="card-txt-category">Categoría: Programación</small>
                             <h5 class="card-title my-2">Aprende Python en un dos tres</h5>
@@ -94,7 +94,7 @@
                                 Sed voluptatum ab cumque quisquam quod nesciunt fugiat,
                                 eius corrupti nulla veniam, molestias nemo repudiandae?
                             </div>
-                            <a href="#" class="post-link"><b>Leer más</b></a>
+                            <a href="https://portal.concytec.gob.pe/index.php/informacion-cti/cti-vitae" class="post-link"><b>Ir a</b></a>
                             <hr>
                             <div class="row">
                                 <div class="col-6 text-left">
@@ -110,7 +110,7 @@
                 <!-- Post 3 -->
                 <div class="col-md-4 col-12 justify-content-center mb-5">
                     <div class="card m-auto" style="width: 18rem;">
-                        <img class="card-img-top" src="{{asset('images/3.png')}}" alt="Post Python">
+                        <img class="card-img-top" src="{{asset('images/elempleo.png')}}" alt="Post Python">
                         <div class="card-body">
                             <small class="card-txt-category">Categoría: Programación</small>
                             <h5 class="card-title my-2">Aprende Python en un dos tres</h5>
@@ -119,7 +119,7 @@
                                 Sed voluptatum ab cumque quisquam quod nesciunt fugiat,
                                 eius corrupti nulla veniam, molestias nemo repudiandae?
                             </div>
-                            <a href="#" class="post-link"><b>Leer más</b></a>
+                            <a href="https://www.elempleo.com/" class="post-link"><b>Ir a</b></a>
                             <hr>
                             <div class="row">
                                 <div class="col-6 text-left">
