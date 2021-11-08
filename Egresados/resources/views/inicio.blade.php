@@ -17,28 +17,43 @@
         </div>
     </nav>
 <!-- Oscar --->
-<div class="container-fluid content">
         <div class="row justify-content-center">
-            <div class="col-xl-*">
+        <div class="col-10">
+        <div class="row">
+
             <nav class="text-center my-5">
                 <h4>Universidad Nacional Tecnológica de Lima Sur</h4>
+            </nav>
+                <div class="col-md-6 col-6 justify-content-center mb-5">
+                    <div class="card m-auto" style="width: 18rem;">
+                        <img class="card-img-top" src="{{asset('images/egresados.jpg')}}" alt="Post Linkedin">
+                        <div class="card-body">
+                            <h5 class="card-title my-2 text-center">Login para Egresados</h5>
+                            <div class="col-sm-12 my-2  text-center">
+                                <a   href="{{route('login-egresado.index')}}" class="btn btn-block btn-success">Entrar</a>
+                            </div>
 
-                <form action="">
-                    <div class="row">
-                        <div class="col-sm-6 my-sm-3">
-                            <a href="{{route('login-egresado.index')}}" class="btn btn-block btn-success">Egresados</a>
-                        </div>
-                        <div class="col-sm-6 my-sm-3">
-                            <a href="{{route('login-administrador.index')}}" class="btn btn-block btn-success">Administrador</a>
+                            </div>
                         </div>
                     </div>
-                </form>
-            </nav>
 
+                    <div class="col-md-6 col-6 justify-content-center mb-5">
+                        <div class="card m-auto" style="width: 18rem;">
+                            <img class="card-img-top" src="{{asset('images/administradores.jpg')}}" alt="Post Linkedin">
+                            <div class="card-body">
+                                <h5 class="card-title my-2 text-center">Login para Administradores</h5>
+                                <div class="col-sm-12 my-2  text-center">
+                                    <a   href="{{route('login-administrador.index')}}" class="btn btn-block btn-success">Entrar</a>
+                                </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
             </div>
-
         </div>
-    </div>
+
 <!--oscar -->
  <!-- Contenido -->
  <section class="container-fluid content">
@@ -46,9 +61,8 @@
     <div class="row justify-content-center">
         <div class="col-10 col-md-12">
             <nav class="text-center my-5">
-                <a href="#" class="mx-3 pb-3 link-category d-block d-md-inline selected-category" >Todas</a>
-                <a href="#" class="mx-3 pb-3 link-category d-block d-md-inline" >Programación</a>
-                <a href="#" class="mx-3 pb-3 link-category d-block d-md-inline" >Desarrollo web</a>
+                <a href="#" class="mx-3 pb-3 link-category d-block d-md-inline selected-category" >Noticias</a>
+
             </nav>
         </div>
     </div>
@@ -72,11 +86,8 @@
                             <a href="https://pe.linkedin.com/" class="post-link"><b>Ir a</b></a>
                             <hr>
                             <div class="row">
-                                <div class="col-6 text-left">
-                                    <span class="card-txt-author">YouDevs</span>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <span class="card-txt-date">Hace 2 semanas</span>
+                                <div class="col-12 text-center">
+                                    <span class="card-txt-author">Untels</span>
                                 </div>
                             </div>
                         </div>
@@ -97,11 +108,8 @@
                             <a href="https://portal.concytec.gob.pe/index.php/informacion-cti/cti-vitae" class="post-link"><b>Ir a</b></a>
                             <hr>
                             <div class="row">
-                                <div class="col-6 text-left">
-                                    <span class="card-txt-author">YouDevs</span>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <span class="card-txt-date">Hace 2 semanas</span>
+                                <div class="col-12 text-center">
+                                    <span class="card-txt-author">Untels</span>
                                 </div>
                             </div>
                         </div>
@@ -122,12 +130,10 @@
                             <a href="https://www.elempleo.com/" class="post-link"><b>Ir a</b></a>
                             <hr>
                             <div class="row">
-                                <div class="col-6 text-left">
-                                    <span class="card-txt-author">YouDevs</span>
+                                <div class="col-12 text-center">
+                                    <span class="card-txt-author">Untels</span>
                                 </div>
-                                <div class="col-6 text-right">
-                                    <span class="card-txt-date">Hace 2 semanas</span>
-                                </div>
+
                             </div>
                         </div>
                     </div>
